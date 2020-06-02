@@ -1,5 +1,7 @@
 import math
 
+factorial = []
+
 num = input("Enter a number: ")
-print("The factorial of ", num , "is : ")
-print(math.factorial(int(num)))
+factorial.append(math.factorial(int(num)))
+print(factorial)
