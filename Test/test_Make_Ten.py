@@ -1,5 +1,6 @@
 import pytest
-from code import *
+from Code import Make_Ten
+
 
 def test_Make_Ten():
-    assert makes_ten(10) == True
+    assert Make_Ten.makes_ten(10, 10) == True

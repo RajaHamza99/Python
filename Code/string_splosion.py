@@ -5,6 +5,8 @@ string_splosion('Code') → 'CCoCodCode'
 string_splosion('abc') → 'aababc'
 string_splosion('ab') → 'aab'"""
 
+import pytest
+
 def string_splosion(str):
   splosion = ""
   for i in range (len(str)):
