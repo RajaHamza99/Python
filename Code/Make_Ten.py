@@ -5,8 +5,9 @@
 #makes10(9, 9) → false
 #makes10(1, 9) → true
 
+import pytest
 
-def makes10(a, b):
+def makes_ten(a, b):
   if ((a + b == 10) or (a == 10) or (b == 10)):
     return True
   else:
