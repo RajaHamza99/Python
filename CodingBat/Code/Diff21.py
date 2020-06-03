@@ -5,8 +5,18 @@
 #diff21(10) → 11
 #diff21(21) → 0
 
+import pytest
+
 def diff21(n):
   if n <= 21:
     return 21 - n
   else:
     return (n - 21) * 2
+
+
+num = int(input("Please enter a number: "))
+print(diff21(num))
+
+
+def test_diff21():
+    assert diff21(8) == 13

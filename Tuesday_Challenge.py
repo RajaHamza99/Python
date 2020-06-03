@@ -1,7 +1,7 @@
 import math
 
-factorial = []
+answer = []
 
-num = input("Enter a number: ")
-factorial.append(math.factorial(int(num)))
-print(factorial)
+num = int(input("Enter a number: "))
+answer.append(math.factorial(int(num)))
+print(answer)
