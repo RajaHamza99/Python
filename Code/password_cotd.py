@@ -29,7 +29,7 @@ def check_password(list_of_pw):
     accepted = []
     symbols = ['$', '@', '#']
     for i in range (len(list_of_pw)):
-        if len(list_of_pw[i]) < 12 and len(list_of_pw[i]) > 6:
+        if len(list_of_pw[i]) <= 12 and len(list_of_pw[i]) >= 6:
                 if any(char.isdigit() for char in list_of_pw[i]):
                     if any (char.isupper() for char in list_of_pw[i]):
                         if any (char.islower() for char in list_of_pw[i]):
